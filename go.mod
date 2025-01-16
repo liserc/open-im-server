@@ -221,3 +221,9 @@ require (
 	golang.org/x/crypto v0.27.0 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
 )
+
+// Replace original import paths with custom repository addresses
+replace (
+	github.com/openimsdk/protocol => github.com/liserc/protocol v0.0.72-alpha.61-20241210
+	github.com/openimsdk/tools => github.com/liserc/tools v0.0.50-alpha.46
+)
